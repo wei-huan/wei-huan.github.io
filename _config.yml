@@ -9,8 +9,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: 为欢 # add your name
-author-img: weihuanselfie.jpg # add your photo
+author: weihuan # add your name
+author-img: weihuan.jpg # add your photo
 about-author: 电子科大软件工程学院的个人练习生 # add description
 social-wechat: # add your wechat handle
 social-QQ: 1520799054# add your QQ handle
