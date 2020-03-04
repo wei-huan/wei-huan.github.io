@@ -42,7 +42,7 @@ tags: [Programming, Learn] # add tag
 
 
 
-线程交互打印代码(C语言)
+## 线程交互打印代码(C语言)
 
 ```
 
