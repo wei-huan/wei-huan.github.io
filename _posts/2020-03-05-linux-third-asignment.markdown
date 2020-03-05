@@ -6,7 +6,15 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: how-to-start.jpg # Add image post (optional)
 tags: [Programming, Learn] # add tag
 ---
-# linux第三期作业提交
+
+
+
+
+
+
+
+
+
 
 
 
@@ -44,7 +52,7 @@ tags: [Programming, Learn] # add tag
 
 ## 线程交互打印代码(C语言)
 
-```
+```c
 
 ```
 
@@ -54,7 +62,7 @@ tags: [Programming, Learn] # add tag
 
 
 
-void* printsingularnumber()
+void* printsingularnumber()         //打印单数天数线程
 
 {
 
@@ -66,7 +74,7 @@ void* printsingularnumber()
 
 
 
-​        sleep(2);
+​        sleep(2);               //让本线程睡眠挂起，交出cpu资源
 
 ​    }
 
@@ -76,7 +84,7 @@ void* printsingularnumber()
 
 
 
-void* printevennumber()
+void* printevennumber()         //打印双数天数线程
 
 {
 
@@ -88,7 +96,7 @@ void* printevennumber()
 
 
 
-​        sleep(2);
+​        sleep(2);               //让本线程睡眠挂起，交出cpu资源
 
 ​    }
 
@@ -100,7 +108,7 @@ int main()
 
 {
 
-​    pthread_t id1,id2;
+​    pthread_t id1,id2;          //定义两个进程的pid
 
 ​    int i=0;
 
@@ -136,6 +144,10 @@ int main()
 
 
 
+​    //检查线程是否创建成功
+
+
+
 ​    pthread_join(id1,NULL);
 
 ​    pthread_join(id2,NULL);
@@ -146,7 +158,7 @@ int main()
 
 }
 
-```
+```c
 
 ```
 
