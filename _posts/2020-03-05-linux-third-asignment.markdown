@@ -108,7 +108,7 @@ int main()
 
 {
 
-​    pthread_t id1,id2;          //定义两个进程的pid
+​    pthread_t id1,id2;          //定义两个线程的id
 
 ​    int i=0;
 
@@ -124,7 +124,7 @@ int main()
 
 ​        printf("Create pthread error!\n");
 
-​        return 1;
+​        return -1;
 
 ​    }
 
@@ -138,7 +138,7 @@ int main()
 
 ​        printf("Create pthread error!\n");
 
-​        return 1;
+​        return  -1;
 
 ​    }
 
